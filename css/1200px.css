@@ -1,0 +1,164 @@
+@media screen and (max-width:1200px) {
+
+/* Navbar */
+
+.logo img{
+ height: 40px;
+ 
+}
+
+.nav-list  {
+    gap: 30px;
+}
+
+.nav-list li a {
+    font-size: 18px;
+}
+
+.nav-list li button {
+    padding: 10px 30px;
+    font-size: 15px;
+}
+/* Hero Section */
+
+.hero {
+    padding: 30px 60px;
+    gap: 40px;
+}
+
+.hero-left img {
+    height: 450px;
+    width: 350px;
+    margin-left: 300px;
+}
+
+.hero-right h1 {
+    font-size: 50px;
+}
+
+.hero-right p {
+    font-size: 15px;
+}
+
+.contact-email input {
+    padding: 20px 0;
+}
+
+.contact-email button {
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+
+/* Section-1  */
+
+.section-1 h1  {
+    font-size: 40px;
+}
+
+.number-content h4 {
+    font-size: 30px;
+}
+
+.number-content p  {
+    font-size: 18px;
+}
+
+.section-1 img  {
+    height: 400px;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+/* Section-2 */
+
+.section-2 h1 {
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.card {
+    gap:60px;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card button  {
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+.card img {
+    width: 350px;
+    height: 300px;
+}
+
+.card.row-reverse h1 {
+margin-left: -10px;
+}
+
+.card.row-reverse p {
+    margin-left: -10px;
+}
+
+/* Section-3 */
+
+.sec-3-head {
+    margin-top: 30px;
+}
+
+.sec-3-head h1 {
+    width: 700px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.sec-3-head p {
+    font-size: 15px;
+    width: 450px;
+     margin-top: 20px;
+     margin-left: -100px;
+  }
+
+  .team-img img {
+    width: 250px;
+    height: 350px;
+}
+
+.team-img p {
+    font-size: 15px;
+    width: 250px;
+}
+
+.card-btn.self-center {
+    padding: 10px 30px;
+}
+/* Footer */
+
+.footer-header img {
+height: 40px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+}
+
+.f-content {
+    gap: 10px;
+}
+
+.f-content li a  {
+    font-size: 12px
+}
+
+.f-content li h4 {
+    font-size: 15px;
+}
+}

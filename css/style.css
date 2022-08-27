@@ -1,0 +1,410 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #707c89;
+   padding: 30px 40px;
+   color: #ffffff;
+   padding-bottom: 40px ;
+   padding-left: 60px;
+ 
+}
+
+.logo img{
+    filter: invert();
+height: 50px;
+ 
+}
+
+.nav-list  {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+  align-items: center;
+}
+
+.nav-list li a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+   font-size: 20px;
+  color: #dfdbdb;
+  font-weight: 200;
+}
+
+.nav-list li button {
+    padding: 10px 40px;
+    background: transparent;
+    border: 1px solid #dfdbdb;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   padding: 30px 60px;
+    gap: 40px;
+   
+    background-color: #707c89;
+
+}
+
+.hero-left img {
+   border-radius: 4px;
+  object-fit: cover;
+  margin-left: 350px;
+   
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.hero-right h1 {
+    margin-top: 30px;
+    width: 900px;
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 70px;
+    font-family: sans-serif;
+
+}
+
+.hero-right p {
+    text-align: justify;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 70px;
+    color: #ffffff;
+    font-weight: 200;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+
+}
+
+
+.contact-email {
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   background-color: #fff;
+   margin-left: 70px;
+   margin-right: 400px;
+   margin-top: 20px;
+}
+
+.contact-email img {
+    width: 35px;
+    height: 45px;
+ padding-left: 20px;
+ 
+}
+
+.contact-email input {
+   
+   padding: 20px 0;
+    border: none;
+   letter-spacing: 2px;
+   margin-left: 10px;
+}
+
+.contact-email button {
+    padding: 12px 50px;
+    margin-left: 100px;
+    background-color: rgb(143, 183, 154);
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Section-1  */
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+    background-color: rgb(237, 232, 232);
+}
+
+.section-1 h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.number-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-top: 20px;
+}
+
+.number-content h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.number-content p {
+    font-size: 20px;
+}
+
+.section-1 img {
+    height: 500px;
+    width: 1180px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+/* Section-2 */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(237, 232, 232);
+
+}
+.section-2 h1 {
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 100px;
+    margin-bottom: 60px;
+}
+
+.card h1 {
+    width: 600px;
+    margin-left: 70px;
+    font-size: 50px;
+}
+
+.card p {
+    width: 600px;
+    margin-left: 70px;
+    color: #524c4c;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.card button {
+    padding: 12px 50px;
+    margin-top: 20px;
+    background-color: rgb(143, 183, 154);
+    margin-left: 70px;  
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+.card img {
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 450px;
+    height: 400px;
+}
+
+.card.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  margin-left: 100px;
+
+}
+
+
+/* Section-3 */
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(237, 232, 232);
+}
+
+.sec-3-head {
+    display: flex;
+    justify-content: space-between;
+  margin-top: 50px;
+ 
+}
+
+.sec-3-head h1 {
+  width: 700px;
+    font-size: 40px;
+  
+    margin-top: 50px;
+
+}
+
+.sec-3-head p {
+  font-size: 20px;
+
+  width: 450px;
+    margin-top: 50px;
+}
+
+.team-imgs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+.team-img  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.team-img img {
+    padding-left: 50px;
+    width: 350px;
+    height: 450px;
+}
+
+.team-img h4 {
+    margin-top: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.team-img p {
+    margin-top: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #4e4b4b;
+    width: 350px;
+}
+
+.card-btn.self-center {
+    padding: 12px 50px;
+    margin-top: 40px;
+    background-color: rgb(143, 183, 154);
+    margin-left: 70px;  
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid #2b2b2b;
+    background-color: rgb(19, 20, 26);
+}
+
+.footer-header img {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    filter: invert();
+}
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 10px 70px;
+  
+}
+.social-media img {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(192, 187, 187);
+  
+    
+   
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 40px;
+    background-color: rgb(19, 20, 26);
+    color: #ffffff;
+}
+
+.f-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+
+.f-content li  {
+    color: #ffffff;
+    list-style: none;
+}
+
+.f-content li a {
+    text-decoration: none;
+    color: #7c7b7b;
+    font-size: 15px
+}
+
+.f-content li h4 {
+    font-size: 20px;
+}
